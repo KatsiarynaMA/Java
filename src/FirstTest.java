@@ -31,6 +31,11 @@ public class FirstTest {
     {
         driver.quit();
     }
+    @After
+    public void tearDown2()
+    {
+        driver.quit();
+    }
 
     @Test
     public void firstTest()
